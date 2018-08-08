@@ -1,0 +1,61 @@
+@import 'variables';
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/footer/world-map.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: $bialy;
+    padding: 100px;
+
+    .input1 {
+        margin-bottom: 15px;
+        padding: 30px;
+    }
+    .txtarea {
+        height: 215px;
+    }
+    .btn {
+        margin: 0 auto;
+    }
+}
+
+#footer {
+    line-height: 80px;
+    text-align: center;
+
+    .social-icons {
+        i {
+            color: $bialy;
+            background-color: #222222;
+            padding: 12px;
+            border-radius: 50%;
+            margin: 5px;
+            width: 40px;
+            transition: all 0.4s
+        }
+        i:hover {
+            background-color: $turkus;
+            color: $bialy;
+        }
+    }
+
+    nav {
+        ul li {
+            list-style: none;
+            display: inline;
+        }
+        a {
+            text-decoration: none;
+            font-size: 12px;
+            color: $paragrafy;
+            font-weight: 700;
+            text-transform: none;
+            margin-left: 20px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+}

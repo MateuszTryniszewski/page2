@@ -1,0 +1,32 @@
+@import 'variables';
+#services {
+    padding: $paddingi;
+    text-align: center;
+    p {
+        font-style: italic;
+        text-transform: none;
+        color: $paragrafy;
+    }
+    .services {
+        i {
+            width: 80px;
+            height: 80px;
+            font-size: 40px;
+            line-height: 80px;
+            background-color: $turkus;
+            border: 1px solid $turkus;
+            color: #fff;
+            border-radius: 50%;
+            margin: 35px 0px; 
+            transition: all 1.0s
+        }
+        i:hover {
+            transform: rotate(720deg);
+            color: $turkus;
+            background-color: $bialy;
+        }
+        h3 {
+            font-size: $h3;
+        }
+    }
+}

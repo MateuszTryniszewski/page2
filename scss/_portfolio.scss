@@ -1,0 +1,75 @@
+@import 'variables';
+#portfolio {
+    background: $bialy-tlo;
+    padding: $paddingi;
+    text-align: center;
+    p {
+        font-style: italic;
+        text-transform: none;
+        color: $paragrafy;
+    }
+    .background {
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        transition: all 0.4s;
+    }
+
+    .overflow {
+        overflow: hidden;
+        height: 250px;
+    }
+    .img1 {
+        background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+    }
+    .img2 {
+        background-image: url(../img/portfolio/typing_on_laptop.jpg);
+    }
+    .img3 {
+        background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+    }
+    .img4 {
+        background-image: url(../img/portfolio/chaotic_paint.jpg);
+    }
+    .img5 {
+        background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+    }
+    .img6 {
+        background-image: url(../img/portfolio/box_of_cookies.jpg);
+    }
+    .content h4 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .con {
+        background-color: $bialy;
+        align-content: center;
+        padding-bottom: 5px;
+        margin: 15px 0px;
+        .mask {
+            .link1 {
+                background-color: rgba(14, 216, 214, 0);
+                color: rgba(14, 216, 214, 0);
+                height: 100%;
+                display: block;
+                transition: all 0.4s;
+                i {
+                    width: 100%;
+                    height: 250px;
+                    line-height: 250px;
+                    font-size: 70px;
+                }
+            }
+            
+
+        }
+        .link1:hover, .background:hover {
+            background-color: rgba(14, 216, 214, 0.4);
+            color: $bialy;
+            transform: scale(1.3);
+
+        }
+    }
+
+
+}
